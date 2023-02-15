@@ -5,3 +5,5 @@
 # Python dependencies, consumed by /WORKSPACE.
 gql >= 2.0.0, < 3.0.0
 PyGitHub
+certifi>=2022.12.7 # not directly required, pinned by Snyk to avoid a vulnerability
+pyjwt>=2.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
